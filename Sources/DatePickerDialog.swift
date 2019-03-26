@@ -112,7 +112,7 @@ open class DatePickerDialog: UIView {
 
         NotificationCenter.default.addObserver(self,
                                                selector: .deviceOrientationDidChange,
-                                               name: NSNotification.Name.UIDevice.orientationDidChangeNotification, object: nil)
+                                               name: UIDevice.orientationDidChangeNotification, object: nil)
 
         /* Anim */
         UIView.animate(
